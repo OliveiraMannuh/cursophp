@@ -14,12 +14,17 @@
     </header>
 
     <main>
-        <?php 
-            $number = $_GET ["number"];           
-            echo "<p>O número escolhido foi <strong>$number</strong><br>O número <i>antecessor</i> é: " . ($number - 1) . "<br>O número <i>sucessor</i> é: " .($number + 1) . "</p>";
-        ?>
-        
-        <p><a href="javascript: history.go(-1)">Voltar para a página anterior</a></p>
+        <p>
+            <?php
+                $number = $_GET ["number"] ?? 0;
+                echo "<p>O número escolhido foi <strong>$number</strong><br>O número <em>antecessor</em> é: " . ($number - 1) . "<br>O número <em>sucessor</em> é: " .($number + 1) . "</p>";
+            ?>
+        </p>
+
+        <!--<button onclick="javascript: history.go(-1)">&#x2b05;Voltar</button>-->
+        <!--<p><a href="javascript: history.go(-1)">Voltar para a página anterior</a></p>-->
+        <button onclick="javascript:window.location.href='index.html'">&#x2b05; Voltar</button> <!-- Voltar sem a informação digitada -->
+          
     </main>
 </body>
 </html>
