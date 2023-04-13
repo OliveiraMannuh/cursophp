@@ -13,7 +13,7 @@
             $cotacao = 4.91;
             $real = 10;
             $dolar = $real/$cotacao;
-            echo "Hoje 10 reais R$ " . number_format($real,2,",",".") . " equivale em dólar a <strong>R$ " . number_format($dolar,2,",",".") . " </strong>.";
+            echo "Hoje R$ " . number_format($real,2,",",".") . " reais equivale em dólar a <strong>US$ " . number_format($dolar,2,",",".") . " dólar</strong>.";
         ?>
     </main>
 </body>
