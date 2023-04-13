@@ -9,11 +9,8 @@
 </head>
 <body>
 
-    <header>
-        <h1>Resultado</h1>
-    </header>
-
     <main>
+        <h1 style="text-align: center;">Resultado</h1>
         <p>
             <?php
                 $number = $_GET ["number"] ?? 0;
@@ -22,7 +19,7 @@
         </p>
 
         <!--<button onclick="javascript: history.go(-1)">&#x2b05;Voltar</button>-->
-        <!--<p><a href="javascript: history.go(-1)">Voltar para a página anterior</a></p>-->
+        <!--<p><a href="javascript: history.go(-1)">Voltar para a página anterior utilizando histórico</a></p>-->
         <button onclick="javascript:window.location.href='index.html'">&#x2b05; Voltar</button> <!-- Voltar sem a informação digitada -->
           
     </main>
