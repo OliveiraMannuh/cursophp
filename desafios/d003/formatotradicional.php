@@ -9,11 +9,13 @@
 </head>
 <body>
     <main>
+        <h1>Forma tradicional</h1>
         <?php
             $cotacao = 4.91;
             $real = 10;
             $dolar = $real/$cotacao;
             echo "Hoje R$ " . number_format($real,2,",",".") . " reais equivale em dólar a <strong>US$ " . number_format($dolar,2,",",".") . " dólar</strong>.";
+            
         ?>
     </main>
 </body>
