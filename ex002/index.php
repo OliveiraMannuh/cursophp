@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Exemplo de php</h1>
-    <?php 
+    <?php
         /* Definindo timezone */
         date_default_timezone_set("America/Sao_Paulo");
 
