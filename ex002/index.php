@@ -30,6 +30,7 @@
         echo date("d/m/Y"). ', nascer do sol: ' .DATE_SUNRISE(time(), SUNFUNCS_RET_STRING, -3.71667, -38.5, $zenith = ini_get("date.sunset_zenith"), -3);
         echo "<br>";
         echo date("d/m/Y"). ', pôr do sol: ' .DATE_SUNSET(time(), SUNFUNCS_RET_STRING,-3.71667, -38.5, $zenith = ini_get("date.sunset_zenith"), -3);
+
     ?>
 </body>
 </html>
